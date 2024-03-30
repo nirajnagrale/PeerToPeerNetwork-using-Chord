@@ -31,14 +31,19 @@ RMI registries. We have used port 8000 for the Tracker’s core functionality an
 default nodes. So we have to first start RMI registries as shown below(on the same terminal):
 
 start rmiregistry 8000 &
+
 start rmiregistry 9000 &
+
 start rmiregistry 10000 &
+
 Note: The above commands are for the windows.
 
 for linux distros use the following:
 
 rmiregistry 8000 &
+
 rmiregistry 9000 &
+
 rmiregistry 10000 &
 
 Then we can run the Tracker node by the following command:
